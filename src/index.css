@@ -1,0 +1,457 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  }
+
+
+
+
+.root{
+  background-image: url('https://www.kamkaj.pk/Content/images/kamkajV2/slider-bg-gray.png');
+  font-family: 'YourCustomFont', sans-serif;
+}
+
+/* navbar start */
+nav p{
+  font-size: 17px;
+  padding: 12px;
+  cursor: pointer;
+  font-weight: 600;
+}
+nav .icon1{
+  font-size: 22px;
+  color: orangered;
+}
+
+nav .icon{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: orangered;
+  padding: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+nav button{
+  border: 0;
+  outline: 0;
+}
+.nav .navbar-toggler:focus{
+  box-shadow: none;
+}
+
+/* navbar end */
+
+
+
+.form-control:focus{
+  box-shadow: 0;
+}
+
+
+/* first page start */
+.h1 span{
+  color: orangered;
+}
+
+.first p{
+   line-height: 22px;
+   font-family: sans-serif;
+   font-weight: 500;
+   margin-top: 12px;
+   margin-bottom: 12px;
+}
+
+.second{
+  text-align: center;
+  background-image: url('https://www.kamkaj.pk/content/images/kamkajV2/book-form-bg.png');
+  padding: 10px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.second h2{
+  color: #fff;
+}
+
+.second button{
+  background-color: orangered;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+.second button:hover{
+  background-color: #fff;
+  color: orangered;
+}
+
+/* first page end */
+
+
+
+/* circle start */
+.col{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.circle-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightblue;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+
+.circle-card .circle-img{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-card .circle-img img{
+   width: 70px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+
+/* circle end */
+
+
+
+/* card desing start */
+
+.container .row .img-h1{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.container .row .img{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container .row .img img{
+width: 250px;
+height: 300px;   
+}
+
+.container .row .img .oneimg{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: end;
+  background-image: url('https://kamkaj.azureedge.net/image/881acb4e91ea4d2f858999e2cb84b8b5.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 250px;
+  height: 300px;
+  cursor: pointer;
+  margin-bottom: 5%;
+  border-radius: 8px;
+  transition: 1s;
+}
+.container  .row .img .oneimg button{
+  font-weight: bold;
+  color: white;
+  width: 100%;
+  margin: 10px;
+  padding: 5px;
+  border: 0;
+  outline: 0;
+  background-color: orangered;
+  transition: 1s;
+}
+
+
+.container .row .img .secondimg{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: end;
+  background-image: url('https://kamkaj.azureedge.net/image/d6a654160ea543208ed7073a4a7928cc.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 250px;
+  height: 300px;
+  cursor: pointer;
+  margin-bottom: 5%;
+  border-radius: 8px;
+  transition: 1s;
+}
+.container  .row .img .secondimg button{
+  font-weight: bold;
+  color: white;
+  width: 100%;
+  margin: 10px;
+  padding: 5px;
+  border: 0;
+  outline: 0;
+  background-color: orangered;
+  transition: 1s;
+}
+
+
+.container .row .img .thirdimg{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: end;
+  background-image: url('https://kamkaj.azureedge.net/image/a56765af1a2c49afb1cec0aebe58ddc5.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 250px;
+  height: 300px;
+  cursor: pointer;
+  margin-bottom: 5%;
+  border-radius: 8px;
+  transition: 1s;
+}
+.container  .row .img .thirdimg button{
+  font-weight: bold;
+  color: white;
+  width: 100%;
+  margin: 10px;
+  padding: 5px;
+  border: 0;
+  outline: 0;
+  background-color: orangered;
+  transition: 1s;
+}
+
+.container .row .img .fourthimg{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: end;
+  background-image: url('https://kamkaj.azureedge.net/image/1870088f213c4580b2ad7f8b4ad064ab.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 250px;
+  height: 300px;
+  cursor: pointer;
+  margin-bottom: 5%;
+  border-radius: 8px;
+  transition: 1s;
+}
+.container  .row .img .fourthimg button{
+  font-weight: bold;
+  color: white;
+  width: 100%;
+  margin: 10px;
+  padding: 5px;
+  border: 0;
+  outline: 0;
+  background-color: orangered;
+  transition: 1s;
+}
+.container .row .oneimg:hover{
+ filter: contrast(1.5);
+ filter: brightness(1.5);
+}
+.container .row .secondimg:hover{
+  filter: contrast(1.5);
+ filter: brightness(1.5);
+}
+.container .row .thirdimg:hover{
+  filter: contrast(1.5);
+ filter: brightness(1.5);
+}
+.container .row .fourthimg:hover{
+  filter: contrast(1.5);
+  filter: brightness(1.5);
+}
+
+/* card desing end */
+
+/* ending start */
+
+.ending img,p{
+  padding: 6px;
+}
+
+.ending-one img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.kam-kaj{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+
+
+
+.kam-kaj-img img{
+  width: 120px;
+}
+
+.qr-code img{
+  width: 160px;
+}
+
+/* ending end */
+
+
+.col-image-circle1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.col-image-circle1 .circle-one{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* media start */
+@media(max-width:992px){
+  .leading{
+    margin-top: 30%;
+  }
+}
+@media(max-width:768px){
+  .leading{
+    margin-top: 40%;
+  }
+}
+@media(max-width:492px){
+  .leading{
+    margin-top: 60%;
+  }
+}
+@media(max-width:360px){
+  .leading{
+    margin-top: 70%;
+  }
+}
+
+/* media end */
+
+
+/* footer start */
+.footer-img{
+  background-image: url('https://www.kamkaj.pk/content/images/kamkajV2/book-form-bg.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  object-fit: cover;
+}
+
+.footer-main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+@media(max-width:992px){
+  .footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }    
+
+}
+
+.footer-one{
+  padding: 20px;
+}
+.footer-one p{
+  color: #fff;
+}
+
+.footer-one .icon{
+  color: #fff;
+  font-size: 25px;
+}
+
+
+.footer-one h4{
+  color: #fff;
+  padding: 6px;
+}
+.footer-one i{
+  font-size: 22px;
+  color: #fff;
+}
+
+.footer-two{
+  padding: 20px;
+}
+
+.footer-two h2{
+  color: #fff;
+}
+
+.footer-two p{
+  color: #fff;
+}
+
+.footer-three{
+  padding: 20px;
+}
+
+.footer-three h2{
+  color: #fff;
+}
+.footer-three p{
+  color: #fff;
+}
+
+.footer-four{
+  padding: 20px;
+}
+
+.footer-four h2{
+  color: #fff;
+}
+
+.footer-four p{
+  color: #fff;
+}
+
+
+/* footer end */
+
